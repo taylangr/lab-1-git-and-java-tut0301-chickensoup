@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String zhan7900(){
+        return printLabMessage("Hi", "Rose", true,
+                "Super excited to be back on campus!");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,7 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(zhan7900());
 
     }
 
