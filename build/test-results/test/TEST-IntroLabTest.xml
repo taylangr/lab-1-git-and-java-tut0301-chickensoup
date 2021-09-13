@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntroLabTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-09-13T19:42:55" hostname="Aliyans-MacBook-Pro.local" time="0.024">
+  <properties/>
+  <testcase name="testExampleStudent" classname="IntroLabTest" time="0.024">
+    <failure message="org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds
+	at java.base@16.0.2/java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendJ(BoundMethodHandle.java:271)
+	at java.base@16.0.2/java.lang.invoke.LambdaFormEditor.bindArgumentJ(LambdaFormEditor.java:490)
+	at java.base@16.0.2/java.lang.invoke.BoundMethodHandle.bindArgumentJ(BoundMethodHandle.java:106)
+	at java.base@16.0.2/java.lang.invoke.MethodHandles.insertArgumentPrimitive(MethodHandles.java:5174)
+	at java.base@16.0.2/java.lang.invoke.MethodHandles.insertArguments(MethodHandles.java:5158)
+	at java.base@16.0.2/java.lang.invoke.StringConcatFactory.generateMHInlineCopy(StringConcatFactory.java:611)
+	at java.base@16.0.2/java.lang.invoke.StringConcatFactory.makeConcatWithConstants(StringConcatFactory.java:358)
+	at java.base@16.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@16.0.2/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
+	at java.base@16.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@16.0.2/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:99)
+	at java.base@16.0.2/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+	at java.base@16.0.2/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+	at java.base@16.0.2/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+	at app//IntroLab.printLabMessage(IntroLab.java:25)
+	at app//IntroLab.exampleStudent(IntroLab.java:51)
+	at app//IntroLabTest.testExampleStudent(IntroLabTest.java:24)
+	at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base@16.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@16.0.2/java.lang.reflect.Method.invoke(Method.java:567)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base@16.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
