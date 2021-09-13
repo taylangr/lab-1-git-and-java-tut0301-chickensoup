@@ -41,9 +41,15 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String fangjenn() {
+        return printLabMessage("Hi", "Jennie Fang", false,
+                "I am a student at UofT.");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -52,6 +58,8 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(fangjenn());
+
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
