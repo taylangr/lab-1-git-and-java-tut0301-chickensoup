@@ -53,7 +53,6 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
-
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
